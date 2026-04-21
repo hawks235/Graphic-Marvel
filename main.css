@@ -1,6 +1,6 @@
 body{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   background-color: rgb(10, 87, 17);
+   background-color: rgb(44, 84, 47);
    color: rgb(255, 255, 255);
 }
 
@@ -50,7 +50,14 @@ nav a:hover,
 }
 
 .main-column {
+   font-size: 120%;
    padding: 1em 1em 1em 1em ;
+}
+
+.main-column h2{
+   font-size: 135%;
+   border-bottom:2px solid #00ff55;
+   padding: 0.em
 }
 
 footer{
@@ -73,3 +80,55 @@ footer a {
    color:black;
    text-shadow: 0 0 5px white
  }
+
+ .services p{
+   padding:0.3em 0.3em 0.3em 0.3em;
+}
+
+.services h2{
+   font-size: 150%;
+   color: #ffffff;
+   border-bottom:2px solid #00ff55;
+   padding: 0.em;
+}
+
+.services {
+   padding:1em 1em 1em 1em;
+}
+
+.services li{
+   list-style-image: url(images/Check\ 1.png);
+   padding: 7.5px;
+   list-style-position: inside;
+}
+
+
+
+.services img {
+   border-radius: 50px;
+   padding: 1em 1em 1em 1em ; 
+}
+
+
+.left-column {
+   font-size: 120%;
+}
+
+.left-column h2{
+   font-size: 135%;
+   border-bottom:2px solid #00ff55;
+   padding: 0.em;
+}
+
+
+.right-column {
+   font-size: 120%;
+   padding-top: 1em;
+}
+
+.right-column h2{
+   font-size: 135%;
+   border-bottom:2px solid #00ff55;
+   
+
+}
