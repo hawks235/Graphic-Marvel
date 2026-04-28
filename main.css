@@ -14,16 +14,23 @@ H1 {
 }
 
 header {
+   background: url(images/bkg\ header.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
    background-color: rgb(40, 111, 40);
-   padding: 20px;
+   padding: 10px 0 0 0;
    text-align: center;
+   position: relative;
 }
 
 
 nav{
-   background-color: aliceblue;
+   background-color: rgb(205, 230, 201);
+   border: 4px solid rgb(2, 80, 10);
    text-transform: uppercase;
    border: 2px solid green;
+   text-transform: uppercase;
 }
 
 nav ul {
@@ -45,7 +52,9 @@ nav a {
 
 nav a:hover,
    .current {
-   background-color: rgba(50, 202, 20, 0.67);
+   background-color: rgb(2, 80, 10);
+   color: white;
+
    border-radius: 2rem;
 }
 
@@ -134,7 +143,66 @@ footer a {
 }
 
 
-section:is(.interior, .signage) img {
+
+
+
+
+Projects
+
+section.one {
+   background-color: #2dab57;
+    padding: 0 1rem 2rem 1rem;
+    position: relative;
+}
+
+section.one h2 {
+   margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: 1rem;
+    background-color:#00ff55 ;
+}
+
+
+section.signage {
+   grid-column: 2/3;  
+   grid-row: 1/2;
+}
+
+section.branding {
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+
+section.vehicle {
+grid-column: 1/2;
+grid-row: 1/2;
+}
+
+section.digital{
+grid-column: 1/2;
+grid-row: 2/3;
+}
+
+
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+img.pic-me {
+    float: right;
+    margin: 0 0 1rem 2rem;
+    transition: all 1s ease;
+    width: 150px;
+    height: auto;
+}
+
+img.pic-right:hover {
+   transform: scale(1.2);
+}
+
+section:is(.logo) img {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr ;
    grid-gap: 1rem;
@@ -148,7 +216,7 @@ section:is(.interior, .signage) img {
    margin: 1em auto;
 }
 
-section:is(.interior, .signage) img {
+section:is( .logo) img {
    max-width: 100%;
    border: 3px solid white;
    border-radius: 4rem;
@@ -157,7 +225,7 @@ section:is(.interior, .signage) img {
    animation: picfade 1.5s ease 1s ;
 }
 
-section:is(.interior, .signage) img:hover{
+section:is( .logo) img:hover{
    transform: scale(1.5);
    position: relative;
    z-index: 2;
