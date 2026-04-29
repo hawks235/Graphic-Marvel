@@ -148,6 +148,80 @@ footer a {
 
 
 Projects
+   * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #d4d4d4;
+    background-image: url(images/gplay.png);
+}
+
+div.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px black;
+}
+
+
+/* IMAGE STYLES
+----------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.pic-right {
+    float: right;
+    margin: 0 0 1rem 2rem;
+    transition: all 1s ease;
+    width: 150px;
+    height: auto;
+} 
+
+img.pic-right:hover {
+    transform: scale(1.2);
+}
+
+img.award {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    z-index: 2;
+    transition: all 1s ease;
+}
+
+img.award:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+
+
+/* HEADINGS
+----------------------------*/
+h1 {
+    font-family: 'Stint Ultra Expanded', Geprgia, serif;
+    font-size: 300%;
+    text-shadow: 1px 1px 5px black;
+}
+
+h2 {
+    font-family: 'Stint Ultra Expanded', Geprgia, serif;
+    margin-bottom: .5rem;
+    font-size: 180%;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #7A0002;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1rem;
+    clear: both;
+}
 
 section.one {
    background-color: #2dab57;
