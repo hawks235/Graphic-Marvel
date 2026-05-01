@@ -232,8 +232,7 @@ div.wrapper {
 }
 
 
-/* IMAGE STYLES
-----------------------------*/
+
 img {
     max-width: 100%;
     height: auto;
@@ -266,8 +265,6 @@ img.award:hover {
 
 
 
-/* HEADINGS
-----------------------------*/
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 300%;
@@ -292,8 +289,7 @@ h3 {
 
 
 
-/* HEADER
-----------------------------*/
+
 header {
     color: white;
     background: url(images/bkg\ header.png);
@@ -313,8 +309,7 @@ header p {
 
 
 
-/* NAV BAR
-----------------------------*/
+
 nav {
     font-family: verdana, sans-serif;
     background-color:#fafffc;
@@ -348,8 +343,6 @@ nav li a:hover {
 
 
 
-/* MAIN
-----------------------------*/
 main {
     font-family: sans-serif;
     background-color: white;
@@ -369,7 +362,7 @@ section.projects {
     
 }
 
-section.item { /* ⬅ all four food items */
+section.item { 
     background-color: #e5fae9;
     padding: 0 1rem 2rem 1rem;
     position: relative;
@@ -382,7 +375,7 @@ section.item h3 {
     background-color: #2c9045;
 }
 
-p.more a { /* ⬅ links to learn more */
+p.more a { 
     text-decoration: none;
     border-bottom: 1px dotted;
     padding-bottom: .2rem;
@@ -467,3 +460,54 @@ section:hover img:not(:hover) {
 }
 
 
+Media Query
+
+@media screen and (max-width: 650px) {
+   
+   .wrapper{
+      width: 100%;
+      grid-template-columns:1fr;
+      margin: 0;
+   }
+
+   header,
+   nav,
+   main,
+   footer{
+      grid-column: 1/2;
+   }
+
+   header{
+      padding: 1rem;
+      text-align: center;
+      background-size: contain;
+   }
+
+   h1{
+      font-size: 175%;
+   }
+
+   nav a {
+      padding: 1.5rem;
+   }
+
+
+   main{
+      padding: 1rem;
+      font-size: 135%;
+   }
+
+   figure.right {
+      width: 30%;
+      font-size: 75%;
+   }
+
+   h2 {
+     font-size: 125;
+   }
+
+   div.backtop {
+      display: block;
+   }
+
+}
