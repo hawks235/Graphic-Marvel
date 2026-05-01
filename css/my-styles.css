@@ -1,0 +1,57 @@
+
+/* Custom styles for the Breakpoints page
+------------------------------------- */
+body.breakpoints div {
+   background-color: #dedede;
+   border: 3px solid silver;
+   margin-top: 1em;
+   padding: 1em 2em;
+}
+
+
+/* Custom styles for the Classes page
+------------------------------------- */
+body.columns .row {
+   background-color: #89a0ae;
+}
+
+body.classes li {
+   margin-bottom: .75em;
+}
+
+body.classes code {
+   font-size: 1.2rem;
+}
+
+
+
+/* Custom styles for the Sidebar page
+------------------------------------- */
+
+body.sidebar {
+   background-color: #fffbeb;
+}
+
+body.sidebar figure.pic-right {
+   float: right;
+   width: 150px;
+   margin: 0 0 1em 2em;
+   font-size: 60%;
+   font-style: italic;
+   text-align: center;
+}
+
+body.sidebar figure.pic-right img {
+   max-width: 100%;
+   border-radius: 3em;
+   border: 3px solid silver;
+}
+
+body.sidebar main {
+   padding-top: 1em;
+   background-color: white;
+   border: 2px solid silver;
+   border-bottom-right-radius: 2em;
+   border-bottom-left-radius: 2em;
+}
+
